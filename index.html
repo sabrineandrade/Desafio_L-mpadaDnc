@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lampada</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <img id="logo" src="imagens/logo.svg" alt="" srcset="" />
+      <h1>LÂMPADA DNC</h1>
+    </header>
+
+    <section>
+      <img
+        id="desligada"
+        src="imagens/desligada.svg"
+        alt=""
+        srcset=""
+        width="200px"
+      />
+      <p>
+        <input
+          class="botao"
+          id="ligar"
+          onclick="acender()"
+          type="button"
+          value="Ligar"
+        />
+        <input
+          class="botao"
+          id="desligar"
+          onclick="desligar()"
+          type="button"
+          value="Desligar"
+        />
+      </p>
+    </section>
+
+    <script src="lampadascript.js"></script>
+  </body>
+</html>
